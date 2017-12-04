@@ -1,8 +1,16 @@
 import Layout from '../layouts/MyLayout.js'
 
+import PostLink from '../components/PostLink'
+
 const Index = () => (
   <Layout>
-    <p>Hello Next.js</p>
+    <p>My Blog</p>
+
+    <ul>
+      <PostLink title="Hello Next.js" />
+      <PostLink title="Learn Nest.js is awesome" />
+      <PostLink title="Deploy apps with Zeit" />
+    </ul>
   </Layout>
 )
 
